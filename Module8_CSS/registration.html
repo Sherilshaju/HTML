@@ -1,0 +1,102 @@
+<html>
+
+<head>
+    <title>
+        Registration
+    </title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url(D:/b1.jpg);
+            background-repeat: no-repeat;
+        }
+        
+        .page {
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+        }
+        
+        .de {
+            padding-top: 40px;
+            padding-right: 40px;
+            padding-bottom: 10px;
+            padding-left: 40px;
+            background: rgb(143, 188, 143);
+            border-radius: 10px;
+        }
+        
+        .submit {
+            border-radius: 20px;
+            padding: 10px 20px;
+            background: dodgerblue;
+            color: white;
+            margin-top: 10px;
+            border: none;
+            outline: none;
+            margin-left: 50px;
+        }
+        
+        img {
+            border-radius: 50%;
+            position: absolute;
+            margin-left: 90px;
+            margin-top: -35px;
+        }
+        
+        .submit:hover {
+            background-color: green;
+        }
+        
+        .co:hover {
+            color: red;
+        }
+        
+        #name {
+            width: 200px;
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid red;
+            padding: 6px;
+            margin-bottom: 15px;
+            color: white;
+        }
+        
+        #name:hover {
+            background-color: darkmagenta;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <img src="C:\Users\USER\Desktop\pkp.png" width="80" height="80">
+        <div class="de">
+            <form action="login.html" method="GET" id="b"></form>
+            <form action="https://www.google.com/" method="get">
+                <input type="text" placeholder="First Name" id="name" required="required"><br>
+                <input type="text" placeholder="Last Name" id="name" required="required"><br>
+                <br>
+                <input type="checkbox" name="male" value="male">Male
+                <input type="checkbox" name="Female" value="Female">Female
+                <input type="checkbox" name="others" value="others">Others
+                <br>
+                <br>
+                <input type="text" placeholder="City" id="name" required="required"><br>
+                <input type="text" placeholder="State" id="name" required="required"><br>
+                <input type="text" placeholder="Country" id="name" required="required"><br>
+                <input type="date" placeholder="Date" id="name" required="required"><br>
+                <input type="email" placeholder="Email" id="name" required="required"><br>
+                <input type="password" id="name" placeholder="New Password" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>
+
+
+                <input type="submit" name="submit" value="Sign in" class="submit">
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
