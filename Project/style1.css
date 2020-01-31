@@ -1,0 +1,74 @@
+body {
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+    background: linear-gradient(white, #D3D8E8);
+}
+
+.first {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(66, 103, 178);
+    color: white;
+}
+
+.l {
+    background-color: blue;
+}
+
+.co {
+    color: rgb(144, 182, 219);
+}
+
+h1 {
+    position: absolute;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-left: 100;
+    margin-top: -10;
+}
+
+.main {
+    margin-left: 750px;
+    margin-top: -400px;
+    top: 10%;
+}
+
+#f {
+    height: 30px;
+    width: 200px;
+}
+
+#s {
+    height: 30px;
+    width: 200px;
+}
+
+#m {
+    height: 30px;
+    width: 400px;
+}
+
+#m1 {
+    height: 30px;
+    width: 400px;
+}
+
+#f {
+    height: 30px;
+    width: 200px;
+}
+
+#p {
+    height: 30px;
+    width: 400px;
+}
+
+.submit {
+    background: darkgreen;
+}
+
+.submit:hover {
+    background-color: greenyellow;
+}

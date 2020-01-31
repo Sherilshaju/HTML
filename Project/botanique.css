@@ -1,0 +1,58 @@
+body {
+    background: url(D:/backdrop.gif);
+}
+
+.bg img {
+    margin-top: 50px;
+    margin-left: 450px;
+}
+
+#a p {
+    font-family: 'Times New Roman', Times, serif;
+    color: #665544;
+    text-align: center;
+    font-size: 18;
+}
+
+figure {
+    width: 200px;
+    height: 150px;
+    border: 7px solid white;
+    border-bottom-width: 20px;
+}
+
+figcaption {
+    background-image: url(D:/icon.png);
+    padding-left: 20px;
+    background-repeat: no-repeat;
+}
+
+.fig1 {
+    margin-top: 40px;
+    margin-left: 250px;
+}
+
+.fig2 {
+    margin-top: -193px;
+    margin-left: 500px;
+}
+
+.fig3 {
+    margin-top: -193px;
+    margin-left: 750px;
+}
+
+.fig4 {
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+.fig5 {
+    margin-top: -193px;
+    margin-left: 500px;
+}
+
+.fig6 {
+    margin-top: -193px;
+    margin-left: 750px;
+}

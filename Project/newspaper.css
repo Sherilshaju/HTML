@@ -1,0 +1,30 @@
+    .header {
+        border: thin;
+    }
+    
+    .c1 h1 {
+        font-family: Old English Text MT;
+        text-align: center;
+    }
+    
+    .submit {
+        background: black;
+        color: white;
+        float: right;
+        margin-top: -45;
+        margin-right: 40px;
+    }
+    
+    .c2 video {
+        position: absolute;
+    }
+    
+    li {
+        display: inline;
+        padding: 15px;
+    }
+    
+    .c4 img {
+        height: 10px;
+        width: 10px;
+    }

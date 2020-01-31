@@ -1,0 +1,40 @@
+    .header {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        grid-auto-columns: auto;
+        text-align: center;
+        background-color: orangered;
+        color: white;
+    }
+    
+    .main {
+        display: grid;
+        height: 50%;
+        grid-template-columns: auto auto auto;
+        grid-gap: 3%;
+        padding: 2%;
+    }
+    
+    #a1 {
+        background-color: rgb(156, 156, 223);
+        display: grid;
+        font-size: 20px;
+        border: 1px solid black;
+        text-align: left;
+        color: rgb(11, 12, 1);
+    }
+    
+    #a2 {
+        background-color: turquoise;
+        color: darkmagenta;
+        display: grid;
+        font-size: 20px;
+        border: 1px solid black;
+    }
+    
+    #a3 {
+        background-color: turquoise;
+        color: darkmagenta;
+        display: grid;
+        font-size: 20px;
+        border: 1px solid black;
+    }

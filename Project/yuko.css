@@ -1,0 +1,119 @@
+body {
+    background: url(D:/dark-wood.jpg);
+}
+
+.header img {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 0px;
+    background-color: darkgray;
+    margin-left: 200px;
+    margin-top: -16px;
+    height: 40px;
+    width: 940px;
+    border-top-width: 20px;
+}
+
+#id1 p {
+    color: black;
+    margin-left: 20px;
+}
+
+#id2 p {
+    color: white;
+    margin-left: 50px;
+}
+
+#id3 p {
+    color: white;
+    margin-left: 50px;
+}
+
+#id4 p {
+    color: white;
+    margin-left: 50px;
+}
+
+#id5 p {
+    color: white;
+    margin-left: 50px;
+}
+
+.second {
+    background-color: white;
+    height: 600px;
+    width: 940px;
+    margin-left: 200px;
+    margin-top: -16px;
+}
+
+.s1 img {
+    margin-top: 30px;
+    margin-left: -10px
+}
+
+.s2 img {
+    margin-top: 30px;
+    margin-left: -10px
+}
+
+.c1 h3 {
+    margin-top: -478px;
+    margin-left: 353px;
+}
+
+.c1 p {
+    color: red;
+    font-size: 18;
+    margin-top: -10px;
+    margin-left: 353px;
+}
+
+#id6 p {
+    margin-left: 353px;
+}
+
+.c2 h3 {
+    margin-top: 125px;
+    margin-left: 353px;
+}
+
+.c2 p {
+    color: red;
+    font-size: 18;
+    margin-top: -10px;
+    margin-left: 353px;
+}
+
+#id7 p {
+    margin-left: 353px;
+    margin-top: 0px;
+}
+
+.c3 h3 {
+    margin-left: 674px;
+    margin-top: -388px;
+}
+
+#id8 {
+    color: red;
+    margin-left: 674px;
+}
+
+.footer {
+    position: absolute;
+    background-color: darkgray;
+    height: 40px;
+    width: 940px;
+    margin-top: 360px;
+}
+
+.footer p {
+    color: white;
+    margin-left: 10px;
+}
